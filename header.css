@@ -1,0 +1,17 @@
+.header {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    height: 60px;
+    background-color: lemonchiffon;
+}
+
+.header p {
+    transition-duration: 0.4s;
+}
+
+.header p:hover {
+    transform: rotate(90deg)
+}
